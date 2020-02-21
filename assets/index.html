@@ -8,9 +8,9 @@
         body {
             background-color: blue;
             width: 100%;
-            height: 5000px;
             margin: 0;
             padding: 0;
+            height: 100%;
             font-family: 'Roboto Condensed', sans-serif;
 
         }
@@ -19,13 +19,13 @@
             background-color: black;
             width: 100%;
             height: 1000px;
-        }       
+        }
 
         header img {
             margin: 2%;
             width: 200px;
             height: 100px;
-            }
+        }
 
         nav {
             width: 50%;
@@ -47,34 +47,90 @@
             list-style-type: none;
         }
 
-        main {
-            background-color: green;
-            width: 100%;
-            height: 1000px;
-        }
-
         footer {
             background-image: url(footer.png);
             background-position: center;
             width: 100%;
             height: 1000px;
+            justify-content: center;
             display: flex;
             flex-flow: column;
-            align-items: flex-end;
-            justify-content: center;
-
         }
 
         footer img {
+            width: 40px;
+            height: 40px;
+        }
+
+        .social-media {
+            width: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-flow: row;
             margin: 5%;
-            width: 50px;
-            height: 50px;
-        } 
+        }
+
+        .maps {
+            display: flex;
+            flex-flow: row;
+            justify-content: space-between;
+            align-items: center;
+            margin: 5%;
+        }
+
+        .maps span {
+            color: #f2943b;
+            text-align: center;
+            font-size: 40pt;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            width: 340px;
+        }
 
         span {
             color: #ffffff;
-            margin: 5%;
             font-size: 10pt;
+        }
+
+        form {
+            display: inline-flex;
+            flex-flow: wrap;
+            justify-content: space-around;
+            align-items: center;
+            background: #000000;
+            width: 330px;
+            height: 350px;
+            padding: 1%;
+        }
+
+        input {
+            width: 136px;
+            height: 40px;
+            background-color: #cccccccc;
+            border: none;
+            color: white;
+            font-size: 20px;
+        }
+
+        .email {
+            width: 300px;
+        }
+
+        .text {
+            width: 300px;
+            height: 130px;
+        }
+
+        .button {
+            height: 40px;
+            border: none;
+            color: white;
+            font-size: 20px;
+            width: 300px;
+            background-color: #f2943b;
+            font-weight: bold;
         }
     </style>
     <script>
@@ -94,19 +150,28 @@
             </ul>
         </nav>
     </header>
-    <main>
-
-    </main>
     <footer>
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.065935313491!2d-47.14700585010837!3d-22.874022584954982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8b9da5b3fbbff%3A0xe2bed4f6d428b71b!2sFit%20Box%20Gym%20Vila%20Regio!5e0!3m2!1sen!2sbr!4v1581386163210!5m2!1sen!2sbr"
-            width="400" height="350" frameborder="0" style="border:0;margin: 5%;" allowfullscreen="">
-        </iframe>
-        <img src="instagram.png" />
-        <img src="facebook.png" />
-        <img src="twitter.png" />
-        <img src="whatsapp.png" />
-        <span>© COPYRIGHT 2020 FitBox Gym- All Right Reserved.</span>
+        <div class="maps">
+            <span>Mais informações</span>
+            <form>
+                <input type="text" placeholder="Nome" />
+                <input type="text" placeholder="Phone" />
+                <input class="email" type="text" placeholder="Email" />
+                <input class="text" type="text" placeholder="Msg" />
+                <input class="button" type="button" value="Enviar" />
+            </form>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.065935313491!2d-47.14700585010837!3d-22.874022584954982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8b9da5b3fbbff%3A0xe2bed4f6d428b71b!2sFit%20Box%20Gym%20Vila%20Regio!5e0!3m2!1sen!2sbr!4v1581386163210!5m2!1sen!2sbr"
+                width="400" height="370" frameborder="0" style="border:0;" allowfullscreen="">
+            </iframe>
+        </div>
+        <div class="social-media">
+            <img src="instagram.png" />
+            <img src="facebook.png" />
+            <img src="twitter.png" />
+            <img src="whatsapp.png" />
+            <span>© COPYRIGHT 2020 FitBox Gym- All Right Reserved.</span>
+        </div>
     </footer>
 </body>
 
