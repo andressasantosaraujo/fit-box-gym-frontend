@@ -4,141 +4,7 @@
 <head>
     <title>FitBox Gym</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
-    <style>
-        body {
-            background-color: blue;
-            width: 100%;
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            font-family: 'Roboto Condensed', sans-serif;
-
-        }
-
-        header {
-            background-color: black;
-            width: 100%;
-            height: 1000px;
-        }
-
-        header img {
-            margin: 2%;
-            width: 200px;
-            height: 100px;
-        }
-
-        nav {
-            width: 50%;
-            height: 100px;
-            float: right;
-            font-size: 16pt;
-            margin: 2% 5%;
-            color: #f2943b;
-            font-weight: bold;
-        }
-
-        ul {
-            position: relative;
-            display: flex;
-            justify-content: space-between;
-        }
-
-        li {
-            list-style-type: none;
-        }
-
-        footer {
-            background-image: url(footer.png);
-            background-position: center;
-            width: 100%;
-            height: 1000px;
-            justify-content: center;
-            display: flex;
-            flex-flow: column;
-        }
-
-        footer img {
-            width: 40px;
-            height: 40px;
-        }
-
-        .social-media {
-            width: 80%;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            flex-flow: row;
-            margin: 5%;
-        }
-
-        .maps {
-            display: flex;
-            flex-flow: row;
-            justify-content: space-between;
-            align-items: center;
-            margin: 5%;
-        }
-
-        .maps span {
-            color: #f2943b;
-            text-align: center;
-            font-size: 40pt;
-            font-weight: bold;
-            display: flex;
-            align-items: center;
-            width: 340px;
-        }
-
-        span {
-            color: #ffffff;
-            font-size: 10pt;
-        }
-
-        form {
-            display: inline-flex;
-            flex-flow: wrap;
-            justify-content: space-around;
-            align-items: center;
-            background: #000000;
-            width: 330px;
-            height: 350px;
-            padding: 1%;
-        }
-
-        input {
-            padding-left: 5%;
-            width: 136px;
-            height: 40px;
-            background-color: #666666;
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-            border: none;
-            color: white;
-            font-size: 20px;
-        }
-
-        ::-webkit-input-placeholder {
-            color: white;
-        }
-
-        .email {
-            width: 300px;
-        }
-
-        .text {
-            width: 300px;
-            height: 130px;
-        }
-
-        .button {
-            height: 40px;
-            border: none;
-            color: white;
-            font-size: 20px;
-            width: 96%;
-            background-color: #f2943b;
-            font-weight: bold;
-        }
-    </style>
+    <link rel="stylesheet" href="index.css">
     <script>
 
     </script>
@@ -156,9 +22,43 @@
             </ul>
         </nav>
     </header>
+    <main>
+        <div class="planos">
+            <h1>Planos disponíveis</h1>
+            <div class="slider-planos">
+                <div class="plano1">
+                    <span>SmallBox</span>
+                    <ul>
+                        <li><img src="exclude.png">Músculação</li>
+                        <li><img src="check.png">Aulas diversas</li>
+                    </ul>
+                    <span>R$ 49,99</span>
+                    <button>Comprar</button>
+                </div>
+                <div class="plano2">
+                    <span>SmallBox</span>
+                    <ul>
+                        <li><img src="exclude.png">Músculação</li>
+                        <li><img src="check.png">Aulas diversas</li>
+                    </ul>
+                    <span>R$ 49,99</span>
+                    <button>Comprar</button>
+                </div>
+                <div class="plano2">
+                    <span>SmallBox</span>
+                    <ul>
+                        <li><img src="exclude.png">Músculação</li>
+                        <li><img src="check.png">Aulas diversas</li>
+                    </ul>
+                    <span>R$ 49,99</span>
+                    <button>Comprar</button>
+                </div>
+            </div>
+        </div>
+    </main>
     <footer>
         <div class="maps">
-            <span>Mais informações</span>
+            <h1>Mais informações</h1>
             <form>
                 <input type="text" placeholder="Nome" />
                 <input type="text" placeholder="Phone" />
