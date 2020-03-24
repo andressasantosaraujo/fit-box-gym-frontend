@@ -139,6 +139,172 @@ form .button {
     font-weight: bold;
 }
 
+.horarios {
+    background-image: url(schedule.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    padding: 5% 0;
+    flex-flow: row;
+}
+
+.horarios h1 {
+    color: #f2943b;
+    text-align: center;
+    font-size: 40pt;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    width: 340px;
+}
+
+.slider-schedule {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: calc((250px*3) + 20px*3);
+}
+
+.schedule3 li {
+    font-size: 20px;
+    display: flex;
+    height: 50px;
+    flex-flow: column;
+    align-items: center;
+    color: #CCCCCC;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.schedule3 li span {
+    font-size: 15px;
+}
+
+.schedule3 h2 {
+    font-family: Roboto Condensed;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #000000;
+    justify-content: center;
+    flex-flow: column;
+    display: flex;
+    height: 80px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #EB2300;
+}
+
+.schedule3 {
+    width: 250px;
+    opacity: 80%;
+    display: flex;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    flex-flow: column;
+    background-color: black;
+}
+
+.schedule2 li {
+    font-size: 20px;
+    display: flex;
+    height: 50px;
+    flex-flow: column;
+    align-items: center;
+    color: #CCCCCC;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.schedule2 li span {
+    font-size: 15px;
+}
+
+.schedule2 h2 {
+    font-family: Roboto Condensed;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #000000;
+    justify-content: center;
+    flex-flow: column;
+    display: flex;
+    height: 80px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #EB2300;
+}
+
+.schedule2 {
+    width: 250px;
+    opacity: 80%;
+    display: flex;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    flex-flow: column;
+    background-color: black;
+}
+
+.schedule1 h2 {
+    font-family: Roboto Condensed;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #000000;
+    justify-content: center;
+    flex-flow: column;
+    display: flex;
+    height: 80px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #EB2300;
+}
+
+.schedule1 {
+    width: 250px;
+    opacity: 80%;
+    display: flex;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    flex-flow: column;
+    background-color: black;
+}
+
+.schedule-table {
+    display: flex;
+    flex-flow: row;
+}
+
+.schedule-table ul {
+    min-height: 250px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.schedule1 li {
+    font-size: 20px;
+    display: flex;
+    height: 50px;
+    flex-flow: column;
+    align-items: center;
+    color: #CCCCCC;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.schedule1 li span {
+    font-size: 15px;
+}
+
 .planos {
     background-color: black;
     background-position: center;
