@@ -7,6 +7,8 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+/*---------------------------------------------------*/
+
 header {
     background-color: black;
     width: 100%;
@@ -39,15 +41,7 @@ nav li {
     list-style-type: none;
 }
 
-.planos img {
-    width: 20px;
-    height: 20px;
-    margin-right: 5%;
-}
-
-.planos ul {
-    padding: 0 20px;
-}
+/*---------------------------------------------------*/
 
 footer {
     background-image: url(footer.png);
@@ -63,12 +57,40 @@ footer img {
     height: 40px;
 }
 
-.social-media {
+.rodape {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    color: white;
+    margin: 2% 5%;
+}
+
+.redes {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
     flex-flow: row;
+}
+
+.content {
+    display: flex;
+    flex-flow: row;
+    color: #f2943b;
+    align-items: center;
     margin: 5%;
+    text-align: center;
+    font-size: 20pt;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.sector {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 810px;
+}
+.content h1 {
+    width: 340px;
 }
 
 .maps {
@@ -139,6 +161,8 @@ form .button {
     font-weight: bold;
 }
 
+/*---------------------------------------------------*/
+
 .horarios {
     background-image: url(schedule.png);
     background-position: center;
@@ -196,7 +220,7 @@ form .button {
     height: 80px;
     box-sizing: border-box;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    background-color: #EB2300;
+    background-color: #f2943b;
 }
 
 .schedule3 {
@@ -238,7 +262,7 @@ form .button {
     height: 80px;
     box-sizing: border-box;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    background-color: #EB2300;
+    background-color: #f2943b;
 }
 
 .schedule2 {
@@ -265,7 +289,7 @@ form .button {
     height: 80px;
     box-sizing: border-box;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    background-color: #EB2300;
+    background-color: #f2943b;
 }
 
 .schedule1 {
@@ -305,6 +329,83 @@ form .button {
     font-size: 15px;
 }
 
+/*---------------------------------------------------*/
+
+.classes {
+    background-color: black;
+    background-position: center;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin: 5% 0;
+    flex-flow: row;
+}
+
+.classes h1 {
+    color: #f2943b;
+    text-align: center;
+    font-size: 40pt;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    width: 340px;
+}
+
+.slider-classes {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: calc((250px*3) + 20px*3);
+}
+
+.classes1 {
+    width: 250px;
+    height: 350px;
+    display: flex;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 2%;
+    background-image: url(class1.png);
+    justify-content: center;
+    background-size: cover;
+}
+
+.classes2 {
+    width: 250px;
+    height: 350px;
+    display: flex;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 2%;
+    background-image: url(class2.png);
+    justify-content: center;
+    background-size: cover;
+}
+
+.classes3 {
+    width: 250px;
+    height: 350px;
+    display: flex;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 2%;
+    background-image: url(class3.png);
+    justify-content: center;
+    background-size: cover;
+}
+
+.classes span {
+    font-family: Rasa;
+    font-weight: bold;
+    font-size: 22pt;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/*---------------------------------------------------*/
+
 .planos {
     background-color: black;
     background-position: center;
@@ -328,6 +429,8 @@ form .button {
 .slider-planos {
     display: flex;
     flex-flow: row;
+    justify-content: space-between;
+    width: calc((250px*3) + 20px*3);
 }
 
 .plano1 {
@@ -445,4 +548,14 @@ form .button {
     font-size: 35px;
     color: #000000;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.planos img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5%;
+}
+
+.planos ul {
+    padding: 0 20px;
 }
